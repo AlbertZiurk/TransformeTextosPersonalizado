@@ -12,14 +12,16 @@
       rel="stylesheet"
     />
 
-    <!--  -->
-    <link rel="stylesheet" href="style.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Extensão TT</title>
   </head>
   <body>
+    <header>
+      <img src="./icons/tt-icon16.png" alt="Logo TRANSFORME textos" id="logo" />
+      <h1>TRANSFORME textos</h1>
+    </header>
     <main>
-      <h1>Transformar Textos</h1>
-
       <input
         type="text"
         placeholder="Digite o texto aqui"
@@ -33,7 +35,21 @@
         <button type="button" class="btn" id="btnMinuscula">minúscula</button>
       </div>
 
-      <div name="resultado" class="resultado" id="resultado">Resultado:</div>
+      <div class="resultado">
+        <textarea
+          id="resultado"
+          name="resultado"
+          rows="8"
+          cols="32"
+          placeholder="Resultado: "
+        ></textarea>
+      </div>
     </main>
+    <footer>
+      <p>Para mais opções, visite:</p>
+      <a href="tiagoneves.com.br" id="link">tiagoneves.com.br</a>
+    </footer>
+
+    <script src="./js/script.js"></script>
   </body>
 </html>

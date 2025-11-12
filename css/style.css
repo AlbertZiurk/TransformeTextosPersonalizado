@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* Fontes Google */
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.75rem;
+
+  /* Borda de Desenvolvimento */
+  /* border: 1px solid blue; */
+}
+
+:root {
+  --btn-border-color: #4c4c4d;
+  --link-color: blue;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 0.813rem;
+}
+
+header {
+  /* margin: 5px 10px 0px; */
+  gap: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  height: 15%;
+  width: 80%;
+}
+
+#logo {
+  margin-left: 5px;
+  border-radius: 2px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 15%;
+  width: 80%;
+}
+
+main {
+  width: 80%;
+  height: 70%;
+
+  /* FlexBox */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-text {
+  width: 160px;
+  padding: 1px 3px;
+  outline: none;
+}
+
+.container-button {
+  width: 160px;
+  padding: 5px 0;
+
+  /* Flexbox */
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 77px;
+  padding: 2px;
+  border-radius: 3px;
+  border: 1px solid var(--btn-border-color);
+  cursor: pointer;
+}
+
+.resultado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#link {
+  color: var(--link-color);
+}
