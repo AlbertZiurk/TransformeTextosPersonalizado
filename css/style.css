@@ -1,19 +1,25 @@
+
+:root {
+  --btn-border-color: #4c4c4d;
+  --link-color: blue;
+  --font-agu: "Agu Display", sans-serif;
+  --font-ubuntu: "Ubuntu", sans-serif;
+  --font-momo: "Momo Signature", cursive;
+  --font-aguafina: "Aguafina Script", cursive;
+  --font-rubik: "Rubik 80s Fade", system-ui;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 
   /* Fontes Google */
-  font-family: "Ubuntu", sans-serif;
+  font-family: var(--font-ubuntu);
   font-size: 0.75rem;
 
   /* Borda de Desenvolvimento */
   /* border: 1px solid blue; */
-}
-
-:root {
-  --btn-border-color: #4c4c4d;
-  --link-color: blue;
 }
 
 body {
@@ -55,15 +61,31 @@ footer {
 }
 
 main {
+  flex: 1;
   width: 80%;
-  height: 70%;
-
-  /* FlexBox */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
+textarea {
+  height: 15vh;
+  max-width: 180px;
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+textarea.font {
+  font-family: var(--font-agu);
+}
+
+button:hover {
+  opacity: 0.8;
+  transform: scale(1.2);
+  transition: ease-in-out;
+}
+ 
 
 .input-text {
   width: 160px;
@@ -72,12 +94,15 @@ main {
 }
 
 .container-button {
-  width: 160px;
+  /* background-color: red; */
+  flex-wrap: wrap;
+  max-width: 160px;
   padding: 5px 0;
 
   /* Flexbox */
   display: flex;
-  justify-content: space-between;
+  gap: 2px;
+  justify-content: space-around;
 }
 
 .btn {
@@ -86,12 +111,6 @@ main {
   border-radius: 3px;
   border: 1px solid var(--btn-border-color);
   cursor: pointer;
-}
-
-.resultado {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 #link {
