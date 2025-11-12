@@ -18,4 +18,8 @@ window.document.addEventListener("DOMContentLoaded", () => {
     // document.getElementById("resultado").innerHTML = firstLetter+inputText;
     document.getElementById("resultado").innerHTML = inputText;
   });
+  document.getElementById("btnLimpar").addEventListener("click", () => {
+    document.getElementById("input-text").value = "";
+    document.getElementById("resultado").innerHTML = "";
+  });
 });
