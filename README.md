@@ -6,7 +6,7 @@ Uma extensão simples e poderosa para o Google Chrome que formata seus textos in
 
 O Transforme Textos é uma extensão para Google Chrome (Manifest V3) projetada para agilizar seu fluxo de trabalho de escrita. Com um clique no ícone da barra de ferramentas, você pode rapidamente converter qualquer trecho de texto para maiúsculas, minúsculas ou uma capitalização inteligente (estilo de sentença), sem precisar sair da sua aba atual.
 
-Este projeto foi feito nas dependências do SENAI, sob tutoria do professor [Tiago Neves](https://github.com/tiagosfneves) para melhor compreensão do fluxo de desenvolvimento de projetos de software com manipulação de DOM.
+Este projeto foi feito nas dependências do SENAI, sob tutoria do professor ![Tiago Neves](https://github.com/tiagosfneves) para melhor compreensão do fluxo de desenvolvimento de projetos de software com manipulação de DOM.
 
 ## 🌟 Funcionalidades Principais
 
@@ -36,9 +36,9 @@ Se você quiser testar ou modificar o código, pode instalá-la localmente:
 
     Clone o repositório (ou baixe os arquivos .zip e descompacte):
 
-## Preview
+## Logo Preview
 
-![Imagem do projeto] (https://github.com/AlbertZiurk/TransformeTextosPersonalizado/icons/tt-icon16.png)
+![Imagem do projeto](https://github.com/AlbertZiurk/TransformeTextosPersonalizado/blob/main/icons/tt-icon300.png)
 
 ## Para clonar, copie e execute esse comando no Git:
 
@@ -86,4 +86,4 @@ Este projeto foi construído com tecnologias web padrão, sem a necessidade de f
 
     Figma
 
-| 👤 Docente: Tiago Neves
+| 👤 Docente: ![Tiago Neves](https://github.com/tiagosfneves)
