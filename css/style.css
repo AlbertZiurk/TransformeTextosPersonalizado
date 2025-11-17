@@ -1,12 +1,10 @@
 
 :root {
   --btn-border-color: #4c4c4d;
-  --link-color: blue;
+  --link-color: #44DD00;
+  --btn-color: hsla(212, 100%, 30%, 0.4667);
+  --background-color: #F8F8FF;
   --font-agu: "Agu Display", sans-serif;
-  --font-ubuntu: "Ubuntu", sans-serif;
-  --font-momo: "Momo Signature", cursive;
-  --font-aguafina: "Aguafina Script", cursive;
-  --font-rubik: "Rubik 80s Fade", system-ui;
 }
 
 * {
@@ -17,9 +15,8 @@
   /* Fontes Google */
   font-family: var(--font-ubuntu);
   font-size: 0.75rem;
-
   /* Borda de Desenvolvimento */
-  /* border: 1px solid blue; */
+  /* border: 1px solid #4c4c4d; */
 }
 
 body {
@@ -29,6 +26,8 @@ body {
   justify-content: center;
   width: 200px;
   height: 200px;
+  background-color: var(--background-color);
+  border: 1px solid #4c4c4d;
 }
 
 h1 {
@@ -111,6 +110,8 @@ button:hover {
   border-radius: 3px;
   border: 1px solid var(--btn-border-color);
   cursor: pointer;
+  background-color: var(--btn-color);
+  /* opacity: 46.67%; */
 }
 
 #link {
